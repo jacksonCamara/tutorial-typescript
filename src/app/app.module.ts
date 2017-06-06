@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { FuncoesNativasComponent } from './funcoes-nativas/funcoes-nativas.component';
+import { PromiseComponent } from './promise/promise.component';
+import { ArrayComponent } from './array/array.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FuncoesNativasComponent,
+    PromiseComponent,
+    ArrayComponent
   ],
   imports: [
     BrowserModule,
